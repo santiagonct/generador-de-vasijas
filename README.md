@@ -61,7 +61,9 @@ python generador_gcode.py --modo doble --amplitud 4
 ```
  
 ### `cono` 
-El radio crece y la vasija se ensancha en forma de cono hasta que el patron se repite`
+El radio crece y la vasija se ensancha en forma de cono hasta que el patron se repite
+
+```
 r(z) = R + (A/2)·(z/h) + (A/2)·sin(f·z)
 ```
 ```bash
